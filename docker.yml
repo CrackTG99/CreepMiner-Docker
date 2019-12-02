@@ -1,0 +1,27 @@
+version: '1'
+
+services:
+  miner:
+    container_name: miner
+    image: docker-creepminer:CrackTG99
+    ports:
+      # Port creepminer
+      - 8124:8124
+      # Port supervisord
+      - 9001:9001      
+    volumes:
+      # Arch config Creepminer for linux
+      - /creepminer-conf:/config
+      # arch config Creepminer for Windows
+      #- C:\creepminer-conf:/config
+      # Plots for linux
+      - /media/Burstcoin/Burst_1/plots:/plots
+      # Plots for Windows
+      #- C:\Plots:/plots
+      # Logs for linux      
+      - /media/Burstcoin/logs:/logs      
+      # Logs for Windows 
+      #- C:\Logs:/logs
+    environment:
+      - AUTO_START=TRUE
+#    restart: always
