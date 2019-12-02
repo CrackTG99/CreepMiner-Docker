@@ -1,5 +1,5 @@
 # CreepMiner-Docker
-![](https://github.com/Creepsky/creepMiner) github build running in Ubuntu 16.04 
+[CreepMiner](https://github.com/Creepsky/creepMiner) github build running in Ubuntu 16.04 
 
 ![](https://github.com/Creepsky/creepMiner/blob/1.7.19/resources/icon.png)
 
