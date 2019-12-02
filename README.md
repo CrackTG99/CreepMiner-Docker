@@ -3,6 +3,10 @@
 
 ![](https://github.com/Creepsky/creepMiner/blob/1.7.19/resources/icon.png)
 
+# Compatible
+- Windows 
+- Linux
+
 # Usage 
 Compile your image with run.sh and start your container
 ```
